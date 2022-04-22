@@ -19,9 +19,9 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
-      run: dotnet restore \BasketAPI\BasketAPI.sln
+      run: dotnet restore 
       
     - name: Build app
-      run: dotnet build \BasketAPI\BasketAPI.sln
+      run: dotnet build 
 
 
